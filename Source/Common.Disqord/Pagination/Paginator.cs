@@ -80,7 +80,7 @@ namespace Common.Disqord
                     isDisabled: pageNumber >= maxPages, 1, 0);
 
             eb.WithFooter($"Page {pageNumber}/{maxPages}");
-            
+
             return new Page(eb, cb); // continue
         }
 

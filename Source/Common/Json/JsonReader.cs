@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace Common
 {
@@ -11,7 +6,7 @@ namespace Common
     ///     Represents a configuration implementation.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public static class JsonReader<T> 
+    public static class JsonReader<T>
         where T : IJsonObject, new()
     {
         private static string? _basePath;

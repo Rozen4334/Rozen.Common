@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Common.Terraria
+﻿namespace Common.Terraria
 {
     /// <summary>
     ///     Represents a packet generator for sending packets over the net client of the game.
