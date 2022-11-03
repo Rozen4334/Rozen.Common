@@ -5,6 +5,41 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<RootNamespace>Common</RootNamespace>
+	  
+	<AssemblyVersion>1.0.0</AssemblyVersion>
+	<PackageVersion>1.0.0</PackageVersion>
+	<FileVersion>1.0.0.0</FileVersion>
+	<Version>1.0.0</Version>
+
+	<Authors>Armano den Boef.</Authors>
+
+	<PackageProjectUrl>https://github.com/Rozen4334/Rozen.Common</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/Rozen4334/Rozen.Common</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+
+	<PackageReleaseNotes>Version 1.0; Made for net6.</PackageReleaseNotes>
+	<PackageTags>Common, Framework, Extensions</PackageTags>
+
+	<Title>Rozen.Common.Core</Title>
+	<Description>A library containing numerous features commonly used in my applications.</Description>
+
+	<NeutralLanguage>en-US</NeutralLanguage>
+
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageId>Rozen.Common.Core</PackageId>
+
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<Copyright>Armano den Boef.</Copyright>
+
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="..\..\README.md">
+		<Pack>True</Pack>
+		<PackagePath>\</PackagePath>
+	</None>
+  </ItemGroup>
 
 </Project>
