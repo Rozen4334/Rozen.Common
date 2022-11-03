@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozen.Common.Data", "Rozen.Common.Data\Rozen.Common.Data.csproj", "{9D246054-E8A1-4E20-9087-171F06E04B26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Data", "Source\Common.Data\Common.Data.csproj", "{9D246054-E8A1-4E20-9087-171F06E04B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozen.Common.Core", "Rozen.Common.Core\Rozen.Common.Core.csproj", "{78562559-5545-49BF-BE79-B467661B72C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Source\Common\Common.csproj", "{78562559-5545-49BF-BE79-B467661B72C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozen.Common.Disqord", "Rozen.Common.Disqord\Rozen.Common.Disqord.csproj", "{2DB78EEE-0DEB-4438-8BA0-F32B0E0CF4F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Disqord", "Source\Common.Disqord\Common.Disqord.csproj", "{2DB78EEE-0DEB-4438-8BA0-F32B0E0CF4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rozen.Common.Terraria", "Rozen.Common.Terraria\Rozen.Common.Terraria.csproj", "{193BEF58-A166-44AE-8825-3D61D99CCC4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Terraria", "Source\Common.Terraria\Common.Terraria.csproj", "{193BEF58-A166-44AE-8825-3D61D99CCC4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6F1C45E1-C2CC-45E1-8896-96C872C94670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D246054-E8A1-4E20-9087-171F06E04B26} = {6F1C45E1-C2CC-45E1-8896-96C872C94670}
+		{78562559-5545-49BF-BE79-B467661B72C0} = {6F1C45E1-C2CC-45E1-8896-96C872C94670}
+		{2DB78EEE-0DEB-4438-8BA0-F32B0E0CF4F7} = {6F1C45E1-C2CC-45E1-8896-96C872C94670}
+		{193BEF58-A166-44AE-8825-3D61D99CCC4E} = {6F1C45E1-C2CC-45E1-8896-96C872C94670}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F1C9BD4-DA84-48F0-84F4-E2A24AEE3ACC}
